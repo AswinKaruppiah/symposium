@@ -1,0 +1,94 @@
+.Workshop {
+  padding: 3%;
+}
+.workshop-detail {
+  padding: 3%;
+  border: black solid 3px;
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: 1fr 1fr;
+}
+.workshop-img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+  border-radius: 10px;
+}
+
+.workshop-detail h1 {
+  margin-top: 0;
+  font-size: 2.5rem;
+  font-family: "Inter", sans-serif;
+}
+.workshop-detail p {
+  font-size: 1.3rem;
+  font-family: "Mukta", sans-serif;
+}
+.workshop-detail a {
+  font-family: "Mukta", sans-serif;
+  text-decoration: none;
+  color: #000000;
+  border: #000000 solid 3px;
+  background-color: transparent;
+  font-size: 1.3rem;
+  padding: 10px 12px 10px 12px;
+  transition: 200ms;
+}
+.list li {
+  font-size: 1.2rem;
+  font-family: "Mukta", sans-serif;
+}
+.list {
+  padding-bottom: 3%;
+}
+.list h2 {
+  font-family: "Inter", sans-serif;
+}
+
+.workshop-detail a:hover {
+  background-color: #000000;
+  color: #ffffff;
+  border: none;
+}
+
+.workshop-detail span {
+  font-weight: 900;
+  font-size: 2rem;
+  padding-left: 2%;
+}
+.workshop-detail .degree {
+  font-size: 1.2rem;
+  font-weight: 100;
+}
+@media (max-width: 601px) and (min-width: 350px) {
+  .workshop-detail {
+    grid-template-columns: 1fr;
+  }
+  .list h2 {
+    font-size: 1.2rem;
+  }
+  .workshop-detail .degree {
+    display: block;
+    font-size: 1rem;
+  }
+  .workshop-detail p {
+    font-size: 1rem;
+    text-align: justify;
+  }
+  .workshop-detail div h1 {
+    font-size: 1.5rem;
+  }
+  .workshop-detail a {
+    padding: 8px 10px 8px 10px;
+    font-size: 1rem;
+  }
+  .workshop-detail span {
+    font-size: 1.5rem;
+    padding-left: 1%;
+  }
+}
+@media (max-width: 1200px) and (min-width: 600px) {
+  .workshop-detail {
+    grid-template-columns: 1fr;
+  }
+}

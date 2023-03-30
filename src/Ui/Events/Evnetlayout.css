@@ -1,0 +1,45 @@
+.Evnetlayout {
+  position: relative;
+  /* background-image: url("./4k\ Wallpaper\ Anime\ Landscape\ HD\ Art\ Wallpaper\ in\ 2020\ Anime.jpg"); */
+  padding: 40% 2% 2% 2%;
+  border-radius: 10px;
+  transition: transform 150ms;
+}
+.Evnetlayout:hover {
+  transform: scale(1.1);
+}
+.Evnetlayout .Evnetlayout-Detail {
+  background-color: aliceblue;
+  border-radius: 8px;
+  padding: 3% 3% 3% 3%;
+}
+.Evnetlayout-Detail h1 {
+  margin-top: 0;
+  font-family: "Poppins", sans-serif;
+}
+.Evnetlayout-Detail p {
+  margin: 0;
+  font-family: "Inconsolata", monospace;
+}
+.Evnetlayout .event-time {
+  margin-top: 3%;
+  position: absolute;
+  top: 1%;
+  padding: 1%;
+  background-color: aliceblue;
+  font-family: "Poppins", sans-serif;
+}
+.event-time h3 {
+  margin: 0;
+}
+@media (max-width: 601px) and (min-width: 350px) {
+  .Evnetlayout-Detail h1 {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 1000px) and (min-width: 600px) {
+  .Evnetlayout-Detail h1 {
+    font-size: 1.5rem;
+  }
+}

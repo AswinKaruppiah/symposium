@@ -1,0 +1,96 @@
+.slider {
+  background-color: black;
+  padding: 5% 10% 5% 10%;
+  position: relative;
+  overflow: hidden;
+}
+.sliderimg {
+  height: 90vh;
+  object-fit: contain;
+}
+.slider h1 {
+  font-family: "Inter", sans-serif;
+}
+.slide-detail div {
+  position: absolute;
+  bottom: -5%;
+  padding-left: 7%;
+  padding-bottom: 15%;
+  transition: 150ms;
+}
+
+.slider .slide-detail {
+  height: 100%;
+  color: aliceblue;
+  display: grid;
+  place-content: center;
+  opacity: 0;
+  transition: 300ms;
+}
+
+.slide-detail a {
+  font-family: "Mukta", sans-serif;
+  text-decoration: none;
+  color: #ffffff;
+  border: #ffffff solid 3px;
+  background-color: transparent;
+  font-size: 1.3rem;
+  padding: 10px 8px 10px 8px;
+  transition: 200ms;
+}
+.slide-detail a:hover {
+  background-color: #000000;
+  color: #ffffff;
+  border: none;
+}
+.slide-detail:hover div {
+  bottom: 0;
+  transform: scale(1);
+}
+.slide-detail:hover {
+  bottom: 0;
+  opacity: 1;
+  backdrop-filter: blur(5px);
+}
+
+.slider button {
+  position: absolute;
+  top: 45%;
+  z-index: 5;
+  padding: 8px 20px 8px 20px;
+  border-radius: 50%;
+  border: none;
+  font-size: 2.5rem;
+  font-weight: 100;
+}
+.arrow.arrow-left {
+  left: 7.5%;
+}
+.arrow.arrow-right {
+  right: 7.5%;
+}
+@media (max-width: 601px) and (min-width: 350px) {
+  .arrow.arrow-left {
+    left: 4.5%;
+  }
+  .arrow.arrow-right {
+    right: 3.5%;
+  }
+  .sliderimg {
+    height: 60vh;
+    object-fit: cover;
+  }
+}
+
+@media (max-width: 1000px) and (min-width: 600px) {
+  .arrow.arrow-left {
+    left: 5.5%;
+  }
+  .arrow.arrow-right {
+    right: 5.5%;
+  }
+  .sliderimg {
+    height: 60vh;
+    object-fit: cover;
+  }
+}

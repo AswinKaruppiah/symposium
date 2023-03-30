@@ -1,0 +1,52 @@
+.ordinator {
+  display: grid;
+  place-content: center;
+  grid-template-columns: 1fr 1fr;
+}
+.ordinator h1 {
+  font-family: "Inter", sans-serif;
+  font-size: 2rem;
+}
+.ordinator p {
+  font-family: "Mukta", sans-serif;
+}
+.footer hr {
+  width: 80%;
+  height: 2px;
+  background-color: black;
+  border: none;
+}
+.footer a {
+  margin: 2%;
+  color: #000;
+}
+.footer .cp {
+  font-family: "Mukta", sans-serif;
+  padding: 2% 0 2% 0;
+}
+.footer span {
+  font-size: 1.3rem;
+  letter-spacing: 2px;
+}
+
+@media (max-width: 601px) and (min-width: 350px) {
+  .ordinator {
+    grid-template-columns: 1fr;
+  }
+  .ordinator h1 {
+    font-size: 1rem;
+  }
+
+  .footer span {
+    font-size: 0.8rem;
+  }
+}
+@media (max-width: 1000px) and (min-width: 600px) {
+  .ordinator h1 {
+    font-size: 1.5rem;
+  }
+
+  .footer span {
+    font-size: 1rem;
+  }
+}

@@ -1,0 +1,102 @@
+.clock {
+  padding: 1%;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.clk-timer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  padding: 4% 3% 3% 3%;
+}
+/* .clock button {
+  border: #434242 solid 2px;
+  background-color: transparent;
+  font-size: 1.3rem;
+  padding: 1% 2% 1% 2%;
+  transition: 200ms;
+} */
+.clock a {
+  text-decoration: none;
+  color: #ffffff;
+  /* border: #434242 solid 2px; */
+  background-color: #65c18c;
+  font-size: 1.3rem;
+  padding: 1% 2% 1% 2%;
+  transition: 200ms;
+}
+.clock a:hover {
+  background-color: #47c47b;
+}
+
+.clock .clk-timer div {
+  background-color: #434242;
+  padding: 2% 6% 2% 6%;
+  border-radius: 7px;
+}
+
+.clock h1 {
+  font-size: 3.5rem;
+}
+.clock h2 {
+  letter-spacing: 3px;
+  font-family: "Montserrat", sans-serif;
+  margin-top: 0;
+
+  font-size: 2rem;
+}
+.clk-timer div h1 {
+  font-size: 5rem;
+  color: #65c18c;
+  margin-bottom: 0;
+}
+.clk-timer div h2 {
+  color: #ebe5e5;
+}
+
+.clock h2:nth-child(4) {
+  color: #ff0063;
+  font-size: 3.5rem;
+}
+
+/* lg: 800px, */
+@media (max-width: 601px) and (min-width: 350px) {
+  .clk-timer {
+    gap: 1rem;
+    padding-top: 7%;
+  }
+  .clock .clk-timer div {
+    padding: 2% 4% 2% 4%;
+  }
+  .clk-timer div h1 {
+    font-size: 2rem;
+  }
+  .clock h1 {
+    font-size: 2rem;
+  }
+  .clock h2 {
+    font-size: 1rem;
+  }
+  .clock h2:nth-child(4) {
+    font-size: 1.5rem;
+  }
+  .clock a {
+    padding: 2% 3% 2% 3%;
+  }
+}
+
+/* xl */
+@media (max-width: 1000px) and (min-width: 600px) {
+  .clk-timer div h1 {
+    font-size: 3rem;
+  }
+  .clock h1 {
+    font-size: 3rem;
+  }
+  .clock h2 {
+    font-size: 1.1rem;
+  }
+  .clock h2:nth-child(4) {
+    font-size: 2.5rem;
+  }
+}
