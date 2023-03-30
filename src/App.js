@@ -14,25 +14,14 @@ import Footer from "./Ui/Footer/Footer";
 function App() {
   return (
     <div className="App">
-      <Routes>
-        <Route
-          path="/"
-          element={
-            <>
-              <Intro />
-              <Timer />
-              <About />
-              <Events />
-              <Clientside />
-              <Fullvideo />
-              <Footer />
-            </>
-          }
-        />
-        <Route path="/tech" element={<Tech />} />
-        <Route path="/workshop" element={<Workshop />} />
-        <Route path="/nontech" element={<Nontech />} />
-      </Routes>
+      <Route
+        exact
+        path="/"
+        Component={(Intro, Timer, About, Events, Clientside, Fullvideo, Footer)}
+      />
+      <Route path="/tech" Component={Tech} />
+      <Route path="/workshop" Component={Workshop} />
+      <Route path="/nontech" Component={Nontech} />
     </div>
   );
 }
