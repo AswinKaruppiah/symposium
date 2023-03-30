@@ -30,8 +30,8 @@ function App() {
           }
         />
         <Route path="/tech" exact element={<Tech />} />
-        <Route path="/symposium/workshop" exact element={<Workshop />} />
-        <Route path="/symposium/nontech" exact element={<Nontech />} />
+        <Route path="/workshop" exact element={<Workshop />} />
+        <Route path="/nontech" exact element={<Nontech />} />
       </Routes>
     </div>
   );
