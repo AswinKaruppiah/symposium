@@ -2,7 +2,6 @@ import React from "react";
 import "./Evnetlayout.css";
 
 function Evnetlayout(props) {
-  console.log(props.src);
   return (
     <div
       className="Evnetlayout"

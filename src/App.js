@@ -16,7 +16,7 @@ function App() {
     <div className="App">
       <Routes>
         <Route
-          path="/"
+          path="/symposium"
           element={
             <>
               <Intro />
@@ -29,9 +29,9 @@ function App() {
             </>
           }
         />
-        {/* <Route path="/symposium/tech" element={<Tech />} /> */}
-        <Route path="/symposium/workshop" element={<Workshop />} />
-        <Route path="/symposium/nontech" element={<Nontech />} />
+        <Route path="/symposium/tech" exact element={<Tech />} />
+        <Route path="/symposium/workshop" exact element={<Workshop />} />
+        <Route path="/symposium/nontech" exact element={<Nontech />} />
       </Routes>
     </div>
   );
