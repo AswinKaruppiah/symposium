@@ -17,11 +17,21 @@ function App() {
       <Route
         exact
         path="/"
-        Component={(Intro, Timer, About, Events, Clientside, Fullvideo, Footer)}
+        element={
+          <>
+            <Intro />
+            <Timer />
+            <About />
+            <Events />
+            <Clientside />
+            <Fullvideo />
+            <Footer />
+          </>
+        }
       />
-      <Route path="/tech" Component={Tech} />
-      <Route path="/workshop" Component={Workshop} />
-      <Route path="/nontech" Component={Nontech} />
+      <Route path="symposium/tech" element={<Tech />} />
+      <Route path="symposium/workshop" element={<Workshop />} />
+      <Route path="symposium/nontech" element={<Nontech />} />
     </div>
   );
 }
