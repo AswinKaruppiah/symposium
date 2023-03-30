@@ -16,7 +16,7 @@ function App() {
     <div className="App">
       <Routes>
         <Route
-          path="/"
+          path="https://AswinKaruppiah.github.io/symposium/"
           element={
             <>
               <Intro />
@@ -29,9 +29,18 @@ function App() {
             </>
           }
         />
-        <Route exact path="/tech" element={Tech} />
-        <Route exact path="/workshop" element={Workshop} />
-        <Route exact path="/nontech" element={Nontech} />
+        <Route
+          path="https://AswinKaruppiah.github.io/symposium/tech"
+          element={<Tech />}
+        />
+        <Route
+          path="https://AswinKaruppiah.github.io/symposium/workshop"
+          element={<Workshop />}
+        />
+        <Route
+          path="https://AswinKaruppiah.github.io/symposiumt/nontech"
+          element={<Nontech />}
+        />
       </Routes>
     </div>
   );
