@@ -29,9 +29,9 @@ function App() {
             </>
           }
         />
-        <Route exact path="/tech" element={<Tech />} />
-        <Route exact path="/workshop" element={<Workshop />} />
-        <Route exact path="/nontech" element={<Nontech />} />
+        <Route exact path="/tech" element={Tech} />
+        <Route exact path="/workshop" element={Workshop} />
+        <Route exact path="/nontech" element={Nontech} />
       </Routes>
     </div>
   );
