@@ -2,7 +2,7 @@ import About from "./Ui/About/About";
 import Events from "./Ui/Events/Events";
 import Intro from "./Ui/Intro/Intro";
 import Timer from "./Ui/Timer/Timer";
-import { Route, Switch, Link } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 import Tech from "./Ui/Events/Tech/Tech";
 import Nontech from "./Ui/Events/Non-tech/Non-tech";
 import Workshop from "./Ui/Events/Workshop/Workshop";
@@ -14,7 +14,7 @@ import Footer from "./Ui/Footer/Footer";
 function App() {
   return (
     <div className="App">
-      <Switch>
+      <Routes>
         <Route exact path="/">
           <Intro />
           <Timer />
@@ -33,7 +33,7 @@ function App() {
         <Route path="/nontech">
           <Nontech />
         </Route>
-      </Switch>
+      </Routes>
     </div>
   );
 }
