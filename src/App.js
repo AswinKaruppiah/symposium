@@ -29,7 +29,7 @@ function App() {
             </>
           }
         />
-        <Route path="/symposium/tech" element={<Tech />} />
+        {/* <Route path="/symposium/tech" element={<Tech />} /> */}
         <Route path="/symposium/workshop" element={<Workshop />} />
         <Route path="/symposium/nontech" element={<Nontech />} />
       </Routes>

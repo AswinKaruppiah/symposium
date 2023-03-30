@@ -4,7 +4,12 @@ import nontech from "./20230327_135433.jpg";
 import workshopimg from "./20230327_141610.jpg";
 import "./Events.css";
 import "./Eventimg.css";
+
+import { useHistory } from "react-router-dom";
+
 function Events() {
+  let history = useHistory();
+
   return (
     <div className="events">
       <center>
@@ -12,9 +17,7 @@ function Events() {
         <div className="e-detail">
           <div className="EventsImg-detail">
             <img
-              // onClick={(e) => {
-              //   window.location.href = "/tech";
-              // }}
+              onClick={() => history.push("symposium/tech")}
               src={tech}
               className="EventsImg"
               alt="not"
