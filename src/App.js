@@ -29,9 +29,9 @@ function App() {
           </>
         }
       />
-      <Route path="symposium/tech" element={<Tech />} />
-      <Route path="symposium/workshop" element={<Workshop />} />
-      <Route path="symposium/nontech" element={<Nontech />} />
+      <Route path="/tech" element={<Tech />} />
+      <Route path="/workshop" element={<Workshop />} />
+      <Route path="/nontech" element={<Nontech />} />
     </div>
   );
 }
