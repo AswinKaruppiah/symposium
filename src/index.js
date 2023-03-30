@@ -5,10 +5,6 @@ import App from "./App";
 import { BrowserRouter } from "react-router-dom";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(
-  <BrowserRouter basename="/symposium">
-    <App />
-  </BrowserRouter>
-);
+root.render(<App />);
 
 //"homepage":"https://AswinKaruppiah.github.io/test-sym",
