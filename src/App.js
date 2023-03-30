@@ -16,7 +16,7 @@ function App() {
     <div className="App">
       <Routes>
         <Route
-          path="/symposium"
+          path="/"
           element={
             <>
               <Intro />
