@@ -12,9 +12,9 @@ function Events() {
         <div className="e-detail">
           <div className="EventsImg-detail">
             <img
-              onClick={(e) => {
-                window.location.href = "/tech";
-              }}
+              // onClick={(e) => {
+              //   window.location.href = "/tech";
+              // }}
               src={tech}
               className="EventsImg"
               alt="not"
@@ -22,9 +22,9 @@ function Events() {
           </div>
           <div className="EventsImg-detail">
             <img
-              onClick={(e) => {
-                window.location.href = "/workshop";
-              }}
+              // onClick={(e) => {
+              //   window.location.href = "/workshop";
+              // }}
               src={workshopimg}
               className="EventsImg"
               alt="not"
@@ -32,9 +32,9 @@ function Events() {
           </div>
           <div className="EventsImg-detail">
             <img
-              onClick={(e) => {
-                window.location.href = "/nontech";
-              }}
+              // onClick={(e) => {
+              //   window.location.href = "/nontech";
+              // }}
               src={nontech}
               className="EventsImg"
               alt="not"
