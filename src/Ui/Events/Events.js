@@ -17,7 +17,7 @@ function Events() {
         <div className="e-detail">
           <div className="EventsImg-detail">
             <img
-              onClick={() => navigate.push("symposium/tech")}
+              onClick={() => navigate("symposium/tech")}
               src={tech}
               className="EventsImg"
               alt="not"
