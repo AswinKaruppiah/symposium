@@ -29,7 +29,7 @@ function App() {
             </>
           }
         />
-        <Route path="/symposium/tech" exact element={<Tech />} />
+        <Route path="/tech" exact element={<Tech />} />
         <Route path="/symposium/workshop" exact element={<Workshop />} />
         <Route path="/symposium/nontech" exact element={<Nontech />} />
       </Routes>
