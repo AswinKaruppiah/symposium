@@ -15,7 +15,7 @@ function App() {
   return (
     <div className="App">
       <Routes>
-        <Route exact path="/">
+        <Route exact path="/symposium">
           <Intro />
           <Timer />
           <About />
