@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/symposium/static/css/main.ba1ff61c.css",
-    "main.js": "/symposium/static/js/main.6ddb6d70.js",
+    "main.js": "/symposium/static/js/main.5a6dfecc.js",
     "static/media/Symposium Calibrated 1080p.mp4": "/symposium/static/media/Symposium Calibrated 1080p.78541a2d93f51fa8989e.mp4",
     "static/media/lv_0_20230325004541.mp4": "/symposium/static/media/lv_0_20230325004541.fec5290c5906e8133999.mp4",
     "static/media/CodeFest design.4k (2).mp4": "/symposium/static/media/CodeFest design.4k (2).012b772738108138488f.mp4",
@@ -12,10 +12,10 @@
     "static/media/20230330_190331_0000.png": "/symposium/static/media/20230330_190331_0000.438314996ac47f09592e.png",
     "index.html": "/symposium/index.html",
     "main.ba1ff61c.css.map": "/symposium/static/css/main.ba1ff61c.css.map",
-    "main.6ddb6d70.js.map": "/symposium/static/js/main.6ddb6d70.js.map"
+    "main.5a6dfecc.js.map": "/symposium/static/js/main.5a6dfecc.js.map"
   },
   "entrypoints": [
     "static/css/main.ba1ff61c.css",
-    "static/js/main.6ddb6d70.js"
+    "static/js/main.5a6dfecc.js"
   ]
 }
