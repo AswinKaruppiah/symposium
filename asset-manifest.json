@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.ba1ff61c.css",
-    "main.js": "/static/js/main.d673ddbd.js",
-    "static/media/20230327_141610.jpg": "/static/media/20230327_141610.564be4f5c902afe518d1.jpg",
-    "static/media/20230327_134355.jpg": "/static/media/20230327_134355.a1fa2923c3bfcba1420d.jpg",
-    "static/media/20230327_135433.jpg": "/static/media/20230327_135433.40bcf9d74b40702a1ee9.jpg",
-    "static/media/wp10474414-amazon-web-services-wallpapers.jpg": "/static/media/wp10474414-amazon-web-services-wallpapers.ce11a115e8c907c9093f.jpg",
-    "static/media/20230330_190331_0000.png": "/static/media/20230330_190331_0000.438314996ac47f09592e.png",
-    "index.html": "/index.html",
-    "main.ba1ff61c.css.map": "/static/css/main.ba1ff61c.css.map",
-    "main.d673ddbd.js.map": "/static/js/main.d673ddbd.js.map"
+    "main.css": "/symposium/static/css/main.ba1ff61c.css",
+    "main.js": "/symposium/static/js/main.0d20541e.js",
+    "static/media/20230327_141610.jpg": "/symposium/static/media/20230327_141610.564be4f5c902afe518d1.jpg",
+    "static/media/20230327_134355.jpg": "/symposium/static/media/20230327_134355.a1fa2923c3bfcba1420d.jpg",
+    "static/media/20230327_135433.jpg": "/symposium/static/media/20230327_135433.40bcf9d74b40702a1ee9.jpg",
+    "static/media/wp10474414-amazon-web-services-wallpapers.jpg": "/symposium/static/media/wp10474414-amazon-web-services-wallpapers.ce11a115e8c907c9093f.jpg",
+    "static/media/20230330_190331_0000.png": "/symposium/static/media/20230330_190331_0000.438314996ac47f09592e.png",
+    "index.html": "/symposium/index.html",
+    "main.ba1ff61c.css.map": "/symposium/static/css/main.ba1ff61c.css.map",
+    "main.0d20541e.js.map": "/symposium/static/js/main.0d20541e.js.map"
   },
   "entrypoints": [
     "static/css/main.ba1ff61c.css",
-    "static/js/main.d673ddbd.js"
+    "static/js/main.0d20541e.js"
   ]
 }
